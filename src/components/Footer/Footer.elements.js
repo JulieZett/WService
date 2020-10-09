@@ -24,3 +24,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 margin-bottom: 24px;
 font-size: 24px;
 `
+
+export const FooterSubText = styled.p`
+margin-bottom: 24px;
+font-size: 20px;
+`
