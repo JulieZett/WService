@@ -1,5 +1,12 @@
 import React from 'react'
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText} from './Footer.elements';
+import { Button } from '../../globalStyles'
+import { FooterContainer, 
+    FooterSubscription, 
+    FooterSubHeading, 
+    FooterSubText,
+    Form,
+    FormInput
+    } from './Footer.elements';
 
 const Footer = () => {
     return (
@@ -12,10 +19,10 @@ const Footer = () => {
                     E-posten blir ikke lagret
                 </FooterSubText>
             <Form>
-                <FormInput name="email" type="email" placeholder="E-posten din">
+                <FormInput name="email" type="email" placeholder="E-posten din"/>
                     <Button fontBig>Subscribe</Button>
 
-                </FormInput>
+               
             </Form>
             </FooterSubscription>
         </FooterContainer>
