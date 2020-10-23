@@ -51,6 +51,7 @@ const InfoSection = ({
                             <img src={img} alt={alt} />
                         </ImgWrapper>
                     </InfoColumn>
+                
                 </InfoRow>
                </Container>
                </InfoSec> 
