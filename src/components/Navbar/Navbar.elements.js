@@ -109,7 +109,7 @@ height: 100%;
     display: table;
 
     &:hover {
-        color: #4b59f7;
+        color: #4f586b;
         transition: all 0.3s ease;
     }
 }

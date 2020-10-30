@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../globalStyles'
+import { FaInstagram } from 'react-icons/fa';
 import { FooterContainer, 
     FooterSubscription, 
     FooterSubHeading, 
@@ -10,7 +11,14 @@ import { FooterContainer,
     FooterLinksWrapper,
     FooterLinksItems,
     FooterLinkTitle,
-    FooterLink
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink
+
     } from './Footer.elements';
 
 const Footer = () => {
@@ -33,7 +41,7 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
-                        <FooterLinkTitle>Hva er Westheim Service</FooterLinkTitle>
+                        <FooterLinkTitle>Westheim Service</FooterLinkTitle>
                         <FooterLink to='/omwwstheim'>Om Westheim</FooterLink>
                         <FooterLink to='/sertifiseringer'>Sertifiseringer</FooterLink>
                     </FooterLinksItems>
@@ -49,7 +57,7 @@ const Footer = () => {
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
-            <SoscialMedia>
+            <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to="/">
                         <sosicalIcon/>
@@ -63,7 +71,7 @@ const Footer = () => {
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
-            </SoscialMedia>
+            </SocialMedia>
             </FooterSubscription>
         </FooterContainer>
     )

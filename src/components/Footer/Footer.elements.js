@@ -1,6 +1,7 @@
 import { findByLabelText } from '@testing-library/react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
+import {FaSnowflake} from 'react-icons/fa';
 
 export const FooterContainer = styled.div`
 background-color: #101522;
@@ -66,6 +67,7 @@ export const FooterLinksContainer = styled.div`
 width: 100%;
 max-width: 1000px;
 display: flex;
+margin-top: 100px;
 justify-content: center;
 
 @media screen and (max-width: 820px) {
@@ -87,7 +89,7 @@ align-items: flex-start;
 margin: 16px;
 margin-top: 80px;
 text-align: left;
-width: 150px;
+width: 250px;
 box-sizing: border-border-box;
 color: #fff;
 
@@ -99,6 +101,7 @@ color: #fff;
 `
 export const FooterLinkTitle= styled.h2`
 margin-bottom: 16px;
+width: 500px;
 `
 
 export const FooterLink = styled(Link)`
@@ -110,6 +113,54 @@ margin-bottom: 0.5rem;
     color: #0467fb;
     transition: 0.03s ease-out;
 }
+`
+
+export const SocialMedia = styled.section`
+max-width: 1000px;
+width: 100%;
+` 
+
+export const SocialMediaWrap = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+max-width: 1000px;
+margin: 40px auto 0 auto;
+
+@media screen and (max-width: 820px) {
+    flex-direction: column;
+}
+`
+
+export const SocialLogo = styled(Link)`
+color: #fff;
+Justify-self: start;
+cursor: pointer;
+text-decoration: none;
+font-size: flex;
+align-items: center;
+margin-bottom: 16px;
+`;
+
+export const SocialIcon = styled (FaSnowflake)`
+margin-right: 10px;
+`
+export const WebsiteRights = styled.small`
+color: #fff;
+margin-bottom: 16px;
+`
+
+export const SocialIcons = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 240px;
+`;
+
+export const SocialIconLink = styled.a`
+color: #fff;
+font-size: 24px;
 `
 
 
