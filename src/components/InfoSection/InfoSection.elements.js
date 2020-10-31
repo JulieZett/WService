@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const InfoSec = styled.div`
-color: #fff;
+color: #4f586b;
 padding: 70px 0;
-background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+background: ${({ lightBg }) => (lightBg ? '#4f586b' : '#101522')};
 `;
 
 export const InfoRow = styled.div`
@@ -42,7 +42,7 @@ pading-bottom: 65px;
 `; 
 
 export const TopLine = styled.div`
-color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#f3e195')};
 font-size: 18px;
 line-height: 16px;
 letter-spacing: 1.4px;
@@ -65,7 +65,7 @@ color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `
 
 export const ImgWrapper = styled.div`
-max-width: 755px;
+max-width: 555px;
 display: flex;
 justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end') };
 `
