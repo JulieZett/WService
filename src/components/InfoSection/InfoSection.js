@@ -48,10 +48,9 @@ const InfoSection = ({
                     </InfoColumn>
                     <InfoColumn>
                         <ImgWrapper start={start}>
-                            <img src={img} alt={alt} />
+                            <Img src={img} alt={alt} />
                         </ImgWrapper>
                     </InfoColumn>
-                
                 </InfoRow>
                </Container>
                </InfoSec> 

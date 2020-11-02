@@ -10,7 +10,7 @@ export const homeObjOne = {
     headLine: 'Vintertjenester og vedlikehold',
     lightText: true,
     topLine: 'Private, borettslag og bedrifter',
-    img: require('../../images/undraw_winter_walk_2yac.svg'),
+    img: require('../../images/undraw_winter_magic_5xu2.svg'),
     alt: 'Image',
     start: ''
     };

@@ -10,7 +10,7 @@ description:  'Snørydding og strøing med små maskiner for trangere tilgjenlig
 headLine: 'Vintertjenester og vedlikehold',
 lightText: true,
 topLine: 'Private, borettslag og bedrifter',
-img: require('../../images/undraw_winter_walk_2yac.svg'),
+img: require('../../images/undraw_winter_magic_5xu2.svg'),
 alt: 'Image',
 start: ''
 };
@@ -27,7 +27,7 @@ export const homeObjTwo = {
         headLine: 'Kim-Robert Westheim',
         lightText: false,
         topLine: 'Hvem er jeg?',
-      /* img: require('../../images/subzero-snow-plow-on-atv-e1381962400482 (1).svg'),*/
+        img: require('../../images/undraw_snowman_1_a2ch (1).svg'),
         alt: 'Image',
         start: 'true'
         };
@@ -48,3 +48,21 @@ export const homeObjThree = {
         alt: 'Image',
         start: ''
                 };
+
+                export const WestheimInfoOne = {
+                        lightBg: false,
+                        primary: true,
+                        lightBg: false,
+                        imgStart: '', 
+                        lightTopLine: true,
+                        lightTextDesc: true, 
+                        buttonLabel: '',
+                        description:  '',
+                        headLine: 'Historikk',
+                        lightText: true,
+                        topLine: 'Utsagn fra tidligere arbeid',
+                      /*  img: require('../../images/undraw_winter_walk_2yac.svg'),*/
+                        alt: 'Image',
+                        start: ''
+                                };
+                

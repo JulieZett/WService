@@ -32,12 +32,12 @@ const Footer = () => {
                     Send gjerne en mail om det er noe du lurer på så svarer jeg så fort jeg kan
                 </FooterSubText>
             <Form>
-                <FormInput name="melding" type="melding" placeholder="Skriv her"/>
-                <FormInput name="email" type="email" placeholder="E-posten din"/>
-                    <Button fontBig>Subscribe</Button>
-
-               
+            
             </Form>
+            <Form>
+            <FormInput name="email" type="email" placeholder="E-posten din"/>
+                    <Button fontBig>Subscribe</Button>
+                    </Form>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>

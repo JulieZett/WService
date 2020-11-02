@@ -1,6 +1,7 @@
 import React from 'react';
-import { homeObjOne, homeObjTwo, homeObjThree } from './Data';
-import { InfoSection, Tjenester }  from '../../components';
+import { homeObjOne, homeObjTwo, homeObjThree, WestheimInfoOne, } from './Data';
+import { InfoSection, Tjenester, WestheimInfo, }  from '../../components';
+
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
           <InfoSection {...homeObjTwo} />  
           <InfoSection {...homeObjThree} />  
            <Tjenester />
+           <WestheimInfo {...WestheimInfoOne} />
         </>
     )
 }

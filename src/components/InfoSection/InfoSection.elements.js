@@ -42,7 +42,7 @@ pading-bottom: 65px;
 `; 
 
 export const TopLine = styled.div`
-color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#f3e195')};
+color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4FA7F7')};
 font-size: 18px;
 line-height: 16px;
 letter-spacing: 1.4px;
@@ -65,7 +65,7 @@ color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `
 
 export const ImgWrapper = styled.div`
-max-width: 555px;
+max-width: 755px;
 display: flex;
 justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end') };
 `
