@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const PricingSection = styled.div`
@@ -13,18 +12,18 @@ export const PricingSection = styled.div`
 export const PricingWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   margin: 0 auto;
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #101522;
   font-size: 48px;
   margin-bottom: 24px;
 `;
@@ -42,21 +41,18 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
-  background: #242424;
+export const PricingCard = styled.div`
+  background: #101522;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 380px;
+  width: 680px;
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
   &:nth-child(2) {
     margin: 24px;
   }
-  &:hover {
-    transform: scale(1.06);
-    transition: all 0.3s ease-out;
-    color: #1c2237;
-  }
+
+
   @media screen and (max-width: 960px) {
     width: 90%;
     &:hover {
@@ -70,7 +66,7 @@ export const PricingCardInfo = styled.div`
   flex-direction: column;
   height: 500px;
   padding: 24px;
-  align-items: center;
+  align-items: left;
   color: #fff;
 `;
 
@@ -83,17 +79,10 @@ export const PricingCardPlan = styled.h3`
   font-size: 24px;
 `;
 
-export const PricingCardCost = styled.h4`
-  font-size: 40px;
-`;
-
-export const PricingCardLength = styled.p`
-  font-size: 14px;
-  margin-bottom: 24px;
-`;
 
 export const PricingCardFeatures = styled.ul`
   margin: 16px 0 32px;
+  font-size: 18px;
   list-style: none;
   display: flex;
   flex-direction: column;

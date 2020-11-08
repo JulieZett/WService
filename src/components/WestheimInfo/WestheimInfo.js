@@ -1,8 +1,4 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
   PricingWrapper,
@@ -12,71 +8,69 @@ import {
   PricingCardInfo,
   PricingCardIcon,
   PricingCardPlan,
-  PricingCardCost,
-  PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature
 } from './WestheimInfo.elements';
 
 function WestheimInfo() {
   return (
-    <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
+    
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Tjenester</PricingHeading>
+          <PricingHeading>Kim-Robert Westheim</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+         
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  
                 </PricingCardIcon>
-                <PricingCardPlan>Sommertjenester</PricingCardPlan>
-                <PricingCardCost>5.000 kr</PricingCardCost>
-                <PricingCardLength>per sesong (1. November - 1. April)</PricingCardLength>
+                <PricingCardPlan>Bakgrunn</PricingCardPlan>
+                
+            
                 <PricingCardFeatures>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>Jeg har en bakgrunn med fagbrev som industrimontør fra 2017. 
+                      Som industrimontør sammenstiller og fullfører du avanserte mekaniske produkter. Det stilles
+                      høye krav til kvalitet og sikkerhet i arbeidet. 
+                    </PricingCardFeature>
+                  <PricingCardFeature>Etter 3 år hos Haby Norske Sjalusier startet jeg hos NOHA med levering av 
+                      brannsikerhet til næringsbygg og industri. 
+                      Dette omgår brannslangetrommer,  brannslukkere og nødlys. </PricingCardFeature>
+                  <PricingCardFeature>Som en aktiv mann fikk jeg i 2019 fikk jeg muligheten 
+                      til å inngå en samarbeid med Vaktmesterkompaniet AS med snøbryting. 
+                      I dag bruker jeg en sekhjuling langs en fast rute på Skøyen i Oslo.
+                  </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <PricingCardPlan>Fremtidige Mål</PricingCardPlan>
+                <PricingCardFeatures>
+                  <PricingCardFeature>tekst</PricingCardFeature>
+                  <PricingCardFeature>tekst</PricingCardFeature>
+                  
+                </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  
                 </PricingCardIcon>
-                <PricingCardPlan>Vintertjenester</PricingCardPlan>
-                <PricingCardCost>5.000 kr</PricingCardCost>
-                <PricingCardLength>per sesong (1.Mai - 1.September)</PricingCardLength>
+                <PricingCardPlan>*bilde*</PricingCardPlan>
+                
+            
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>bilde
+                    </PricingCardFeature>
+           
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
-              </PricingCardInfo>
-            </PricingCard>
-            <PricingCard to='/sign-up'>
-              <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiCutDiamond />
-                </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
-                <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
-                </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+             
+                
+               
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
         </PricingWrapper>
       </PricingSection>
-    </IconContext.Provider>
+
   );
 }
 export default WestheimInfo;

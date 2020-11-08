@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
 import SignUp from './pages/SignUp/SignUp';
-import { Navbar, Footer } from './components';
+import { Navbar, Footer, WestheimInfo, KontaktSkjema } from './components';
 
 function App() {
   return (

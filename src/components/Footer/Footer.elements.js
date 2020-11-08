@@ -19,7 +19,7 @@ align-items: center;
 text-align: center;
 margin-bottom: 24px;
 padding: 24px;
-color: #ffffff
+color: #ffffff;
 `
 
 export const FooterSubHeading = styled.p`
@@ -62,6 +62,14 @@ color: #242424;
     margin: 0 0 16px 0;
 }
 `; 
+
+export const Textarea = styled.textarea`
+outline: none;
+border: none;
+font-size: 16px;
+border: 1px solid #fff;
+
+`;
 
 export const FooterLinksContainer = styled.div`
 width: 100%;
