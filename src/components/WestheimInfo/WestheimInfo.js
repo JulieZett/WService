@@ -2,14 +2,15 @@ import React from 'react';
 import {
   PricingSection,
   PricingWrapper,
-  PricingHeading,
+  Heading,
   PricingContainer,
   PricingCard,
   PricingCardInfo,
   PricingCardIcon,
   PricingCardPlan,
   PricingCardFeatures,
-  PricingCardFeature
+  PricingCardFeature,
+  Picture
 } from './WestheimInfo.elements';
 
 function WestheimInfo() {
@@ -17,9 +18,26 @@ function WestheimInfo() {
     
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Kim-Robert Westheim</PricingHeading>
+          <Heading>Hvem er Westheim</Heading>
           <PricingContainer>
-         
+          <Picture>
+              <PricingCardInfo>
+                <PricingCardIcon>
+                  
+                </PricingCardIcon>
+               
+                
+            
+                <PricingCardFeatures>
+                  <PricingCardFeature>x
+                    </PricingCardFeature>
+           
+                </PricingCardFeatures>
+             
+                
+               
+              </PricingCardInfo>
+            </Picture>
             <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
@@ -29,7 +47,7 @@ function WestheimInfo() {
                 
             
                 <PricingCardFeatures>
-                  <PricingCardFeature>Jeg har en bakgrunn med fagbrev som industrimontør fra 2017. 
+                  <PricingCardFeature>Mitt navn er Kim-Robert Westheim og jeg er opprinnelig fra Halden. Jeg har en bakgrunn med fagbrev som industrimontør fra 2017. 
                       Som industrimontør sammenstiller og fullfører du avanserte mekaniske produkter. Det stilles
                       høye krav til kvalitet og sikkerhet i arbeidet. 
                     </PricingCardFeature>
@@ -43,30 +61,15 @@ function WestheimInfo() {
                 </PricingCardFeatures>
                 <PricingCardPlan>Fremtidige Mål</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>tekst</PricingCardFeature>
-                  <PricingCardFeature>tekst</PricingCardFeature>
+                  <PricingCardFeature>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                       Cras elementum eros leo, sed facilisis metus suscipit sit amet.
+                        Vivamus euismod diam eu hendrerit vulputate.</PricingCardFeature>
+                  
                   
                 </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard>
-              <PricingCardInfo>
-                <PricingCardIcon>
-                  
-                </PricingCardIcon>
-                <PricingCardPlan>*bilde*</PricingCardPlan>
-                
-            
-                <PricingCardFeatures>
-                  <PricingCardFeature>bilde
-                    </PricingCardFeature>
-           
-                </PricingCardFeatures>
-             
-                
-               
-              </PricingCardInfo>
-            </PricingCard>
+          
           </PricingContainer>
         </PricingWrapper>
       </PricingSection>

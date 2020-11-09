@@ -1,36 +1,33 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  background: #4f586b;
+  justify-content: center;
+  background: #101522;
 
 `;
 
 export const PricingWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: left;
   margin: 0 auto;
-  padding-left: 95px;
-  justify-content: right;
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-items: center;
   }
 `;
 
-export const Heading = styled.h1`
-  color: #101522;
+export const Overskift = styled.h1`
+  color: #fff;
   font-size: 48px;
   margin-bottom: 24px;
-  justify-content: right;
-
-
+  justify-content: left;
 `;
 
 export const PricingContainer = styled.div`
@@ -46,16 +43,15 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled.div`
-  background: transparent;
-  width: 680px;
-  height: 500px;
+export const PricingCard = styled(Link)`
+  background: #242424;
+  width: 380px;
+  height: 300px;
   text-decoration: none;
   border-radius: 4px;
   &:nth-child(2) {
     margin: 24px;
   }
-
 
   @media screen and (max-width: 960px) {
     width: 90%;
@@ -65,47 +61,59 @@ export const PricingCard = styled.div`
   }
 `;
 
-export const Picture = styled.div`
-  background: transparent;
-  width: 680px;
-  height: 500px;
-  text-decoration: none;
-  border-radius: 4px;
-  &:nth-child(2) {
-    margin: 24px;
-  }
-`;
-
 export const PricingCardInfo = styled.div`
   display: flex;
   flex-direction: column;
   height: 500px;
   padding: 24px;
-  align-items: left;
-  color: #101522;
+  align-items: center;
+  color: #fff;
 `;
 
-export const PricingCardIcon = styled.div`
-  margin: 24px 0;
-`;
 
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
 `;
 
+export const PricingCardCost = styled.h4`
+  font-size: 40px;
+`;
+
+
 
 export const PricingCardFeatures = styled.ul`
   margin: 16px 0 32px;
-  font-size: 21px;
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
-  font-family: 'Open Sans';
+  color: #a9b3c1;
 `;
 
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
 `;
+
+export const TopLine = styled.div`
+color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4FA7F7')};
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 1.4px;
+margin-bottom: 16px;
+`;
+
+export const Heading = styled.h1`
+margin-bottom: 24px;
+font-size: 48px;
+line-height: 1.1;
+color: ${({lightText}) => (lightText ? '#f7f8fa' : '#1c2237')};
+`
+
+export const Subtitle = styled.p`
+max-width: 440px;
+margin-bottom: 35px;
+font-size: 18px;
+line-height: 24px;
+color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+`
