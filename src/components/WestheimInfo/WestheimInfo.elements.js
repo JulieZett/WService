@@ -29,6 +29,8 @@ export const Heading = styled.h1`
   font-size: 48px;
   margin-bottom: 24px;
   justify-content: right;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 
 `;

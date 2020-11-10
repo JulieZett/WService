@@ -21,7 +21,7 @@ function WestheimInfo() {
     
       <PricingSection>
         <PricingWrapper>
-          <Heading>Hvem er Westheim</Heading>
+          <Heading></Heading>
           <PricingContainer>
           <Picture>
               <PricingCardInfo>
