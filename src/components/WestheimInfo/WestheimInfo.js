@@ -1,12 +1,15 @@
 import React from 'react';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { GiStairsGoal } from 'react-icons/gi';
 import {
   PricingSection,
   PricingWrapper,
   Heading,
   PricingContainer,
   PricingCard,
+  InfoIcon,
+  InfoIconBig,
   PricingCardInfo,
-  PricingCardIcon,
   PricingCardPlan,
   PricingCardFeatures,
   PricingCardFeature,
@@ -22,30 +25,16 @@ function WestheimInfo() {
           <PricingContainer>
           <Picture>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  
-                </PricingCardIcon>
-               
-                
-            
                 <PricingCardFeatures>
                   <PricingCardFeature>x
                     </PricingCardFeature>
-           
                 </PricingCardFeatures>
-             
-                
-               
               </PricingCardInfo>
             </Picture>
             <PricingCard>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  
-                </PricingCardIcon>
-                <PricingCardPlan>Bakgrunn</PricingCardPlan>
-                
-            
+                <PricingCardPlan>
+                    <InfoIcon> <BsFillPersonLinesFill /> Bakgrunn</InfoIcon> </PricingCardPlan>
                 <PricingCardFeatures>
                   <PricingCardFeature>Mitt navn er Kim-Robert Westheim og jeg er opprinnelig fra Halden. Jeg har en bakgrunn med fagbrev som industrimontør fra 2017. 
                       Som industrimontør sammenstiller og fullfører du avanserte mekaniske produkter. Det stilles
@@ -59,7 +48,8 @@ function WestheimInfo() {
                       I dag bruker jeg en sekhjuling langs en fast rute på Skøyen i Oslo.
                   </PricingCardFeature>
                 </PricingCardFeatures>
-                <PricingCardPlan>Fremtidige Mål</PricingCardPlan>
+                <PricingCardPlan>
+                    <InfoIcon ><GiStairsGoal />  Fremtidige Mål </InfoIcon></PricingCardPlan>
                 <PricingCardFeatures>
                   <PricingCardFeature>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                        Cras elementum eros leo, sed facilisis metus suscipit sit amet.

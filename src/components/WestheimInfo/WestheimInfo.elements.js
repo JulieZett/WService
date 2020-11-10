@@ -47,9 +47,9 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled.div`
-  background: transparent;
+  background: #101522;
   width: 680px;
-  height: 500px;
+  height: 600px;
   text-decoration: none;
   border-radius: 4px;
   &:nth-child(2) {
@@ -76,6 +76,14 @@ export const Picture = styled.div`
   }
 `;
 
+export const InfoIcon = styled.div`
+  color: #fff;
+  height: 18px;
+  font-size: 29px;
+`;
+
+
+
 export const PricingCardInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -85,19 +93,17 @@ export const PricingCardInfo = styled.div`
   color: #101522;
 `;
 
-export const PricingCardIcon = styled.div`
-  margin: 24px 0;
-`;
 
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
+  color: #fff;
 `;
 
 
 export const PricingCardFeatures = styled.ul`
   margin: 16px 0 32px;
-  font-size: 21px;
+  font-size: 18px;
   list-style: none;
   display: flex;
   flex-direction: column;
