@@ -43,9 +43,7 @@ const Erfaring = () => {
                             <button className='next-btn' onClick={nextPerson}>
                                 <FaChevronRight/>
                             </button>
-                            <button className='prev-btn'>
-                                <FaChevronLeft/>
-                            </button>
+                            
                         </div>
                     </article>
                 </ErfaringColumn>
