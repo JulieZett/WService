@@ -107,7 +107,7 @@ Variables
       font-size: 1.75rem;
     }
     h4 {
-      font-size: 1rem;
+      font-size: 2.6rem;
     }
     body {
       font-size: 1rem;
@@ -158,14 +158,6 @@ Variables
   .container {
     width: 80vw;
     max-width: var(--fixed-width);
-  }
-  .review {
-    background: #c4ccd4;
-    padding: 1.5rem 2rem;
-    border-radius: var(--radius);
-    box-shadow: var(--light-shadow);
-    transition: var(--transition);
-    text-align: center;
   }
   .review:hover {
     box-shadow: var(--dark-shadow);
@@ -220,6 +212,7 @@ Variables
   }
   .info {
     margin-bottom: 0.75rem;
+    font-size: 1.25rem;
   }
   .prev-btn,
   .next-btn {
@@ -235,18 +228,4 @@ Variables
   .next-btn:hover {
     color: var(--clr-primary-5);
   }
-  .random-btn {
-    margin-top: 0.5rem;
-    background: var(--clr-primary-10);
-    color: var(--clr-primary-5);
-    padding: 0.25rem 0.5rem;
-    text-transform: capitalize;
-    border-radius: var(--radius);
-    transition: var(--transition);
-    border-color: transparent;
-    cursor: pointer;
-  }
-  .random-btn:hover {
-    background: var(--clr-primary-5);
-    color: var(--clr-primary-1);
-  }
+ 

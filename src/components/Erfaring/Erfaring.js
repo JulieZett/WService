@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import people from './Pdata';
-import {ErfaringColumn, ErfaringSeksjon, ErfaringWrapper, Overskrift} from './Erfaring.elements';
+import {ErfaringColumn, ErfaringSeksjon, ErfaringWrapper, Overskrift, UtsagnBoks} from './Erfaring.elements';
 import {FaChevronLeft, FaChevronRight, FaQuoteRight} from 'react-icons/fa';
 
 
@@ -24,9 +24,10 @@ const Erfaring = () => {
     return (
         <ErfaringSeksjon>
             <ErfaringWrapper>
-                <ErfaringColumn>
+               
                     <Overskrift> Erfaringer </Overskrift>
-                    <article className='review'>
+                     <UtsagnBoks>
+                    
                         <div className='img-container'>
                             <img src={image} alt={name} className='person-img'/>
                             <span className='quote-icon'>
@@ -45,8 +46,8 @@ const Erfaring = () => {
                             </button>
                             
                         </div>
-                    </article>
-                </ErfaringColumn>
+                 </UtsagnBoks>
+                
             </ErfaringWrapper>
         </ErfaringSeksjon>
     );

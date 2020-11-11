@@ -1,12 +1,12 @@
 const reviews = [
     {
       id: 1,
-      name: 'susan smith',
-      job: 'web developer',
+      name: 'Jonathan Holt',
+      job: '29 år, Halden',
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        'https://scontent.fosl4-1.fna.fbcdn.net/v/t1.0-9/14224753_10157443346255650_8129479461752307286_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_ohc=EKKF7LHMPcYAX8mg5Y9&_nc_ht=scontent.fosl4-1.fna&oh=b1d8f70d2d5d6a26d504d9e3c0cf3c9a&oe=5FD260F9',
       text:
-        "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+        "Westheim Service gjorde en bedre jobb enn forventet med å opprettholde snøfri inngang...",
     },
     {
       id: 2,

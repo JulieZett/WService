@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
+import { FaTree  } from 'react-icons/fa';
+import { FaRegSnowflake } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -25,52 +25,35 @@ function Tjenester() {
         <PricingWrapper>
           <PricingHeading>Tjenester</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+          <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
-                </PricingCardIcon>
-                <PricingCardPlan>Sommertjenester</PricingCardPlan>
-                <PricingCardCost>5.000 kr</PricingCardCost>
-                <PricingCardLength>per sesong (1. November - 1. April)</PricingCardLength>
-                <PricingCardFeatures>
-                  <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
-                </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
-              </PricingCardInfo>
-            </PricingCard>
-            <PricingCard to='/sign-up'>
-              <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiCrystalBars />
+                  <FaRegSnowflake />
                 </PricingCardIcon>
                 <PricingCardPlan>Vintertjenester</PricingCardPlan>
                 <PricingCardCost>5.000 kr</PricingCardCost>
-                <PricingCardLength>per sesong (1.Mai - 1.September)</PricingCardLength>
+                <PricingCardLength>Fast pris per sesong (1.November - 1.Mars)</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Velg</Button>
               </PricingCardInfo>
             </PricingCard>
+           
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <FaTree />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Uavhengig sesong</PricingCardPlan>
+                <PricingCardCost>Pris etter avtale</PricingCardCost>
+               
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Trefelling</PricingCardFeature>
+                  <PricingCardFeature>Vedhogging</PricingCardFeature>
+                  <PricingCardFeature>Last</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Velg</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
