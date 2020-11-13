@@ -37,6 +37,8 @@ export const Form = styled.form`
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 35px auto 0px auto;
+width: 80%;
 
 @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -68,8 +70,14 @@ outline: none;
 border: none;
 font-size: 16px;
 border: 1px solid #fff;
+height: 300px;
+width: 700px;
 
-`;
+@media screen and (max-width: 820px) {
+    width: 100%;
+    margin: 0 0 16px 0;
+}
+`; 
 
 export const FooterLinksContainer = styled.div`
 width: 100%;
@@ -169,6 +177,25 @@ width: 240px;
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
+`
+
+export const FormLabel = styled.div`
+font-size: 20px;
+display: inline-block;
+margin-bottom: 10px;
+padding-right: 1.5rem;
+`
+export const FormInputBig = styled.div`
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: inter;
+  font-weight: normal;
 `
 
 

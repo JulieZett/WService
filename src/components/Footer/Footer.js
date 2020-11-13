@@ -7,6 +7,7 @@ import { FooterContainer,
     FooterSubText,
     Form,
     FormInput,
+    FormInputBig,
     FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinksItems,
@@ -17,7 +18,9 @@ import { FooterContainer,
     SocialLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
+    FormLabel,
+    Textarea,
 
     } from './Footer.elements';
 
@@ -28,16 +31,36 @@ const Footer = () => {
                 <FooterSubHeading>
                     Ta kontakt for spørsmål angående tjenester
                 </FooterSubHeading>
-                <FooterSubText>
+                     <FooterSubText>
                     Send gjerne en mail om det er noe du lurer på så svarer jeg så fort jeg kan
-                </FooterSubText>
-            <Form>
-            
-            </Form>
-            <Form>
-            <FormInput name="email" type="email" placeholder="E-posten din"/>
-                    <Button fontBig>Subscribe</Button>
+                    </FooterSubText>
+                     <Form>
+                        <FormLabel> Navn: </FormLabel>
+                            <FormInput name="navn" type="tekst" placeholder="Navn" />
                     </Form>
+                    <Form>
+                        <FormLabel> Email: </FormLabel>
+                          <FormInput name="email" type="email" placeholder="E-posten din" />
+                    </Form>
+                     <Form>
+                         <FormLabel> Skriv din melding her: </FormLabel>
+                    </Form>
+                    <Form>
+                        <Textarea>
+
+                         <textarea
+                            class="message"
+                            name=""
+                            id=""
+                            cols="50"
+                            rows="10"
+                            placeholder="Melding"></textarea>
+                            </Textarea>
+                    </Form>
+                    <Form>
+                    <Button fontBig>Send</Button>
+                    </Form>
+
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
