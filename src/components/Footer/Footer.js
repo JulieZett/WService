@@ -35,28 +35,26 @@ const Footer = () => {
                     Send gjerne en mail om det er noe du lurer på så svarer jeg så fort jeg kan
                     </FooterSubText>
                      <Form>
-                        <FormLabel> Navn: </FormLabel>
-                            <FormInput name="navn" type="tekst" placeholder="Navn" />
+                        <FormLabel> Fornavn: </FormLabel>
+                            <FormInput name="Fnavn" type="tekst" placeholder="Fornavn" />
+                    </Form>
+                    <Form>
+                        <FormLabel> Etternavn: </FormLabel>
+                            <FormInput name="Enavn" type="tekst" placeholder="Etternavn" />
                     </Form>
                     <Form>
                         <FormLabel> Email: </FormLabel>
                           <FormInput name="email" type="email" placeholder="E-posten din" />
                     </Form>
                      <Form>
-                         <FormLabel> Skriv din melding her: </FormLabel>
+                         <FormLabel> Beskjed:</FormLabel>
                     </Form>
-                    <Form>
+                    
                         <Textarea>
 
-                         <textarea
-                            class="message"
-                            name=""
-                            id=""
-                            cols="50"
-                            rows="10"
-                            placeholder="Melding"></textarea>
+                         Skriv din melding her 
                             </Textarea>
-                    </Form>
+                
                     <Form>
                     <Button fontBig>Send</Button>
                     </Form>
