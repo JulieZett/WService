@@ -109,7 +109,7 @@ color: #fff;
 `
 export const FooterLinkTitle= styled.h2`
 margin-bottom: 16px;
-width: 500px;
+width: 300px;
 `
 
 export const FooterLink = styled(Link)`

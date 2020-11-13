@@ -91,7 +91,7 @@ pading-bottom: 65px;
 `; 
 
 export const UtsagnBoks = styled.div`
-    background: #c4ccd4;
+    background: transparent;
     padding: 1.5rem 2rem;
     text-align: center;
     

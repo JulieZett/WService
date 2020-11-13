@@ -41,14 +41,15 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
-                        <FooterLinkTitle>Westheim Service</FooterLinkTitle>
-                        <FooterLink to='/omwwstheim'>Om Westheim</FooterLink>
+                        <FooterLinkTitle>Westheim </FooterLinkTitle>
+                        <FooterLink to='/omwwstheim'>Org.nr: 123 123 123 </FooterLink>
                         <FooterLink to='/sertifiseringer'>Sertifiseringer</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Kontakt</FooterLinkTitle>
-                        <FooterLink to='/omwwstheim'>Om Westheim</FooterLink>
-                        <FooterLink to='/sertifiseringer'>Sertifiseringer</FooterLink>
+                        <FooterLink to='/omwwstheim'>Telefon: 900 00 000</FooterLink>
+                        <FooterLink to='/sertifiseringer'>E-post: Kimrwestheim@gmail.com</FooterLink>
+                        <FooterLink to='/sertifiseringer'>Postadresse: Atomveien 34D, 0000 Halden</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Sosiale medier</FooterLinkTitle>

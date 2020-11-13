@@ -34,9 +34,9 @@ const Erfaring = () => {
                                     <FaQuoteRight/>
                             </span>
                         </div>
-                        <h4 className='author'>{name}</h4>
-                        <p classname='job'>{job}</p>
-                        <p className='info'>{text}</p>
+                        <h4 className='person'>{name}</h4>
+                        <p classname='alder'>{job}</p>
+                        <p className='utsagn'>{text}</p>
                         <div className="button-container">
                             <button className='prev-btn' onClick={prevPerson}>
                                 <FaChevronLeft/>
