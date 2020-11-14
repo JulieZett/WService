@@ -24,6 +24,7 @@ import { FooterContainer,
 
     } from './Footer.elements';
 
+
 const Footer = () => {
     return (
         <FooterContainer>
@@ -36,27 +37,31 @@ const Footer = () => {
                     </FooterSubText>
                      <Form>
                         <FormLabel> Fornavn: </FormLabel>
+                    </Form>
+                    <Form>
                             <FormInput name="Fnavn" type="tekst" placeholder="Fornavn" />
                     </Form>
                     <Form>
                         <FormLabel> Etternavn: </FormLabel>
+                        </Form>
+                        <Form>
                             <FormInput name="Enavn" type="tekst" placeholder="Etternavn" />
                     </Form>
                     <Form>
                         <FormLabel> Email: </FormLabel>
+                        </Form>
+                        <Form>
                           <FormInput name="email" type="email" placeholder="E-posten din" />
                     </Form>
                      <Form>
                          <FormLabel> Beskjed:</FormLabel>
                     </Form>
-                    
-                        <Textarea>
-
+                     <Textarea> 
                          Skriv din melding her 
-                            </Textarea>
+                    </Textarea>
                 
                     <Form>
-                    <Button fontBig>Send</Button>
+                    <Button type ="submit"fontBig>Send</Button>
                     </Form>
 
             <FooterLinksContainer>

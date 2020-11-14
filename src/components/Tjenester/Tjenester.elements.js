@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const PricingSection = styled.div`
+export const TjenesteSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ export const PricingSection = styled.div`
 
 `;
 
-export const PricingWrapper = styled.div`
+export const TjenesteWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,13 +23,13 @@ export const PricingWrapper = styled.div`
   }
 `;
 
-export const PricingHeading = styled.h1`
+export const TjenesteHeading = styled.h1`
   color: #fff;
   font-size: 48px;
   margin-bottom: 24px;
 `;
 
-export const PricingContainer = styled.div`
+export const TjenesteContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
+export const TjenesteCard = styled(Link)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 380px;
@@ -65,7 +65,7 @@ export const PricingCard = styled(Link)`
   }
 `;
 
-export const PricingCardInfo = styled.div`
+export const TjenesteCardInfo = styled.div`
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -74,25 +74,25 @@ export const PricingCardInfo = styled.div`
   color: #fff;
 `;
 
-export const PricingCardIcon = styled.div`
+export const TjenesteCardIcon = styled.div`
   margin: 24px 0;
 `;
 
-export const PricingCardPlan = styled.h3`
+export const TjenesteCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
 `;
 
-export const PricingCardCost = styled.h4`
+export const TjenesteCardCost = styled.h4`
   font-size: 40px;
 `;
 
-export const PricingCardLength = styled.p`
+export const TjenesteCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
 `;
 
-export const PricingCardFeatures = styled.ul`
+export const TjenesteCardFeatures = styled.ul`
   margin: 16px 0 32px;
   list-style: none;
   display: flex;
@@ -101,6 +101,6 @@ export const PricingCardFeatures = styled.ul`
   color: #a9b3c1;
 `;
 
-export const PricingCardFeature = styled.li`
+export const TjenesteCardFeature = styled.li`
   margin-bottom: 10px;
 `;

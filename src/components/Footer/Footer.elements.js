@@ -35,9 +35,9 @@ font-size: 20px;
 
 export const Form = styled.form`
 display: flex;
-justify-content: center;
-align-items: center;
-margin: 35px auto 0px auto;
+justify-content: left;
+align-items: left;
+margin: 17px auto 0px auto;
 width: 80%;
 
 @media screen and (max-width: 820px) {
@@ -66,6 +66,9 @@ color: #242424;
 `; 
 
 export const Textarea = styled.textarea`
+padding: 10px 20px;
+border-radius: 2px;
+margin-right: 10px;
 outline: none;
 border: none;
 font-size: 16px;
@@ -182,8 +185,8 @@ font-size: 24px;
 export const FormLabel = styled.div`
 font-size: 20px;
 display: inline-block;
-margin-bottom: 10px;
-padding-right: 1.5rem;
+margin-bottom: 1px;
+text-align: left;
 `
 export const FormInputBig = styled.div`
   padding: 12px 20px;

@@ -4,61 +4,61 @@ import { FaTree  } from 'react-icons/fa';
 import { FaRegSnowflake } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import {
-  PricingSection,
-  PricingWrapper,
-  PricingHeading,
-  PricingContainer,
-  PricingCard,
-  PricingCardInfo,
-  PricingCardIcon,
-  PricingCardPlan,
-  PricingCardCost,
-  PricingCardLength,
-  PricingCardFeatures,
-  PricingCardFeature
+  TjenesteSection,
+  TjenesteWrapper,
+  TjenesteHeading,
+  TjenesteContainer,
+  TjenesteCard,
+  TjenesteCardInfo,
+  TjenesteCardIcon,
+  TjenesteCardPlan,
+  TjenesteCardCost,
+  TjenesteCardLength,
+  TjenesteCardFeatures,
+  TjenesteCardFeature
 } from './Tjenester.elements';
 
 function Tjenester() {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
-      <PricingSection>
-        <PricingWrapper>
-          <PricingHeading>Tjenester</PricingHeading>
-          <PricingContainer>
-          <PricingCard to='/sign-up'>
-              <PricingCardInfo>
-                <PricingCardIcon>
+      <TjenesteSection>
+        <TjenesteWrapper>
+          <TjenesteHeading>Tjenester</TjenesteHeading>
+          <TjenesteContainer>
+          <TjenesteCard to='/sign-up'>
+              <TjenesteCardInfo>
+                <TjenesteCardIcon>
                   <FaRegSnowflake />
-                </PricingCardIcon>
-                <PricingCardPlan>Vintertjenester</PricingCardPlan>
-                <PricingCardCost>5.000 kr</PricingCardCost>
-                <PricingCardLength>Fast pris per sesong (1.November - 1.Mars)</PricingCardLength>
-                <PricingCardFeatures>
+                </TjenesteCardIcon>
+                <TjenesteCardPlan>Vintertjenester</TjenesteCardPlan>
+                <TjenesteCardCost>5.000 kr</TjenesteCardCost>
+                <TjenesteCardLength>Fast pris per sesong (1.November - 1.Mars)</TjenesteCardLength>
+                <TjenesteCardFeatures>
                   
-                </PricingCardFeatures>
+                </TjenesteCardFeatures>
                 <Button primary>Velg</Button>
-              </PricingCardInfo>
-            </PricingCard>
+              </TjenesteCardInfo>
+            </TjenesteCard>
            
-            <PricingCard to='/sign-up'>
-              <PricingCardInfo>
-                <PricingCardIcon>
+            <TjenesteCard to='/sign-up'>
+              <TjenesteCardInfo>
+                <TjenesteCardIcon>
                   <FaTree />
-                </PricingCardIcon>
-                <PricingCardPlan>Uavhengig sesong</PricingCardPlan>
-                <PricingCardCost>Pris etter avtale</PricingCardCost>
+                </TjenesteCardIcon>
+                <TjenesteCardPlan>Uavhengig sesong</TjenesteCardPlan>
+                <TjenesteCardCost>Pris etter avtale</TjenesteCardCost>
                
-                <PricingCardFeatures>
-                  <PricingCardFeature>Trefelling</PricingCardFeature>
-                  <PricingCardFeature>Vedhogging</PricingCardFeature>
-                  <PricingCardFeature>Last</PricingCardFeature>
-                </PricingCardFeatures>
+                <TjenesteCardFeatures>
+                  <TjenesteCardFeature>Trefelling</TjenesteCardFeature>
+                  <TjenesteCardFeature>Vedhogging</TjenesteCardFeature>
+                  <TjenesteCardFeature>Last</TjenesteCardFeature>
+                </TjenesteCardFeatures>
                 <Button primary>Velg</Button>
-              </PricingCardInfo>
-            </PricingCard>
-          </PricingContainer>
-        </PricingWrapper>
-      </PricingSection>
+              </TjenesteCardInfo>
+            </TjenesteCard>
+          </TjenesteContainer>
+        </TjenesteWrapper>
+      </TjenesteSection>
     </IconContext.Provider>
   );
 }
