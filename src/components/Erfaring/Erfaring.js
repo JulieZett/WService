@@ -7,7 +7,7 @@ import {FaChevronLeft, FaChevronRight, FaQuoteRight} from 'react-icons/fa';
 const Erfaring = () => {
 
     const [index, setIndex] = useState(0);
-    const {name, job, image, text} = people[index];
+    const {name, job, image, arbeid, text} = people[index];
 
     const nextPerson = () => {
         setIndex((index) => {
@@ -36,6 +36,7 @@ const Erfaring = () => {
                         </div>
                         <h4 className='person'>{name}</h4>
                         <p classname='alder'>{job}</p>
+                        <p classname='utsagn'>{arbeid}</p>
                         <p className='utsagn'>{text}</p>
                         <div className="button-container">
                             <button className='prev-btn' onClick={prevPerson}>

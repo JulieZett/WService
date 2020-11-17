@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { GiStairsGoal } from 'react-icons/gi';
+import Snowman from '../../images/logo.svg';
 import {
   PricingSection,
   PricingWrapper,
@@ -8,12 +9,10 @@ import {
   PricingContainer,
   PricingCard,
   InfoIcon,
-  InfoIconBig,
   PricingCardInfo,
   PricingCardPlan,
   PricingCardFeatures,
   PricingCardFeature,
-  Picture
 } from './WestheimInfo.elements';
 
 function WestheimInfo() {
@@ -21,16 +20,11 @@ function WestheimInfo() {
     
       <PricingSection>
         <PricingWrapper>
-          <Heading></Heading>
+        <Heading>Westheim</Heading>
           <PricingContainer>
-          <Picture>
-              <PricingCardInfo>
-                <PricingCardFeatures>
-                  <PricingCardFeature>x
-                    </PricingCardFeature>
-                </PricingCardFeatures>
-              </PricingCardInfo>
-            </Picture>
+                  <div>
+                    <img src={Snowman} class="BildeS" width="1000" />
+                  </div>
             <PricingCard>
               <PricingCardInfo>
                 <PricingCardPlan>

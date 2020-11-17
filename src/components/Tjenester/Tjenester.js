@@ -31,14 +31,32 @@ function Tjenester() {
                   <FaRegSnowflake />
                 </TjenesteCardIcon>
                 <TjenesteCardPlan>Vintertjenester</TjenesteCardPlan>
+                <TjenesteCardPlan>Sesong</TjenesteCardPlan>
+                <TjenesteCardCost>5.000 kr*</TjenesteCardCost>
+                <TjenesteCardFeature>Snøbryting</TjenesteCardFeature>
+                <TjenesteCardFeature>Saltstrøing</TjenesteCardFeature>
+                <TjenesteCardFeatures> </TjenesteCardFeatures>
+        
+                <Button primary>Les mer</Button>
+              </TjenesteCardInfo>
+            </TjenesteCard>
+            <TjenesteCard to='/sign-up'>
+              <TjenesteCardInfo>
+                <TjenesteCardIcon>
+                  <FaRegSnowflake />
+                </TjenesteCardIcon>
+                <TjenesteCardPlan>Vårrengjøring</TjenesteCardPlan>
+                <TjenesteCardPlan>Sesong</TjenesteCardPlan>
                 <TjenesteCardCost>5.000 kr</TjenesteCardCost>
-                <TjenesteCardLength>Fast pris per sesong (1.November - 1.Mars)</TjenesteCardLength>
+                <TjenesteCardFeature>Kantklipp</TjenesteCardFeature>
+                <TjenesteCardFeature>Gjødsling</TjenesteCardFeature>
                 <TjenesteCardFeatures>
                   
                 </TjenesteCardFeatures>
-                <Button primary>Velg</Button>
+                <Button primary>Les mer</Button>
               </TjenesteCardInfo>
             </TjenesteCard>
+            
            
             <TjenesteCard to='/sign-up'>
               <TjenesteCardInfo>
@@ -53,7 +71,7 @@ function Tjenester() {
                   <TjenesteCardFeature>Vedhogging</TjenesteCardFeature>
                   <TjenesteCardFeature>Last</TjenesteCardFeature>
                 </TjenesteCardFeatures>
-                <Button primary>Velg</Button>
+                <Button primary>Les mer</Button>
               </TjenesteCardInfo>
             </TjenesteCard>
           </TjenesteContainer>

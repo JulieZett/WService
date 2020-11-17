@@ -50,7 +50,10 @@ const Navbar = () => {
                         <NavLinks to='/WestheimInfo'>Westheim</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='/tjenester'>Tjenester</NavLinks>
+                        <NavLinks to='/Erfaring'>Erfaringer</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='/Tjenester'>Tjenester</NavLinks>
                     </NavItem>
                     <NavItemBtn>
                         {button ? (

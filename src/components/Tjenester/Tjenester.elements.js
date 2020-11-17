@@ -88,8 +88,9 @@ export const TjenesteCardCost = styled.h4`
 `;
 
 export const TjenesteCardLength = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 24px;
+  align-items: center;
 `;
 
 export const TjenesteCardFeatures = styled.ul`
