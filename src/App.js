@@ -1,5 +1,5 @@
 import React from 'react';
-import GlobalStyle from './globalStyles'
+import './styling.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
@@ -9,7 +9,7 @@ import { Navbar, Footer, WestheimInfo, Erfaring, KontaktSkjema } from './compone
 function App() {
   return (
     <Router>
-      <GlobalStyle />
+      
      <Navbar />
      <Switch>
        <Route path="/" exact component={Home} />

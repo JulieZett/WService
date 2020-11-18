@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { GiStairsGoal } from 'react-icons/gi';
-import Snowman from '../../images/logo.svg';
+import Man from '../../images/relax.svg';
 import {
   PricingSection,
   PricingWrapper,
@@ -20,10 +20,10 @@ function WestheimInfo() {
     
       <PricingSection>
         <PricingWrapper>
-        <Heading>Westheim</Heading>
+        <Heading>Om Westheim</Heading>
           <PricingContainer>
                   <div>
-                    <img src={Snowman} class="BildeS" width="1000" />
+                    <img src={Man} class="BildeS" width="700" />
                   </div>
             <PricingCard>
               <PricingCardInfo>

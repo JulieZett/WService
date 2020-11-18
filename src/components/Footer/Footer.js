@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '../../globalStyles'
-import { db } from '../../firebase'
 import { FaInstagram } from 'react-icons/fa';
+import Light from '../../images/monlight.svg';
 import { FooterContainer, 
     FooterSubscription, 
     FooterSubHeading, 
@@ -27,22 +27,19 @@ import { FooterContainer,
 
 
 const Footer = () => {
-/*
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [melding, setMelding] = useState("");
-    
-*/
+
     return (
         <FooterContainer>
             <FooterSubscription>
                 <FooterSubHeading>
-                    Ta kontakt for spørsmål angående tjenester
+                    Ta gjerne kontakt for en uforpliktende prat eller ved spørsmål!
                 </FooterSubHeading>
                      <FooterSubText>
-                    Send gjerne en mail om det er noe du lurer på så svarer jeg så fort jeg kan
+                    Jeg svarer på telefon og mail hver dag mellom 8-16.
                     </FooterSubText>
-                
+                    <div>
+                    <img src={Light} class="BildeS" width="700" />
+                  </div>
 
             <FooterLinksContainer>
                 <FooterLinksWrapper>

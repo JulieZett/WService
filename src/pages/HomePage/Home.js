@@ -11,8 +11,8 @@ const Home = () => {
           <InfoSection {...homeObjOne} />  
           <WestheimInfo {...WestheimInfoOne} />
           <Erfaring />
-          <KontaktSkjema />
           <Tjenester />
+          <KontaktSkjema />
            
           
            

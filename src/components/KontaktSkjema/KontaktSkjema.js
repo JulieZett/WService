@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../../firebase";
+import { Boks } from "../KontaktSkjema/Kontaktskjema.elements";
 
 const KontaktSkjema = () => {
   const [name, setName] = useState("");
@@ -20,7 +21,7 @@ const KontaktSkjema = () => {
       })
       .then(() => {
         setLoader(false);
-        alert("Your message has been submitted👍");
+        alert("Meldingen din er blitt sendt!👍");
       })
       .catch((error) => {
         alert(error.message);
@@ -33,26 +34,27 @@ const KontaktSkjema = () => {
   };
 
   return (
+    <Boks>
     <form className="form" onSubmit={handleSubmit}>
       <h1>KontaktSkjema</h1>
 
-      <label>Name</label>
+      <label>Navn</label>
       <input
-        placeholder="Name"
+        placeholder="Navn"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
 
-      <label>Email</label>
+      <label>E-mail</label>
       <input
-        placeholder="Email"
+        placeholder="E-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
 
-      <label>Message</label>
+      <label>Melding</label>
       <textarea
-        placeholder="Message"
+        placeholder="Skriv her"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
@@ -61,9 +63,11 @@ const KontaktSkjema = () => {
         type="submit"
         style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
       >
-        Submit
+        Send
       </button>
     </form>
+    </Boks>
+    
   );
 };
 
