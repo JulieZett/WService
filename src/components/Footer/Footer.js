@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../globalStyles'
+import { db } from '../../firebase'
 import { FaInstagram } from 'react-icons/fa';
 import { FooterContainer, 
     FooterSubscription, 
@@ -26,6 +27,12 @@ import { FooterContainer,
 
 
 const Footer = () => {
+/*
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [melding, setMelding] = useState("");
+    
+*/
     return (
         <FooterContainer>
             <FooterSubscription>
@@ -35,34 +42,7 @@ const Footer = () => {
                      <FooterSubText>
                     Send gjerne en mail om det er noe du lurer på så svarer jeg så fort jeg kan
                     </FooterSubText>
-                     <Form>
-                        <FormLabel> Fornavn: </FormLabel>
-                    </Form>
-                    <Form>
-                            <FormInput name="Fnavn" type="tekst" placeholder="Fornavn" />
-                    </Form>
-                    <Form>
-                        <FormLabel> Etternavn: </FormLabel>
-                        </Form>
-                        <Form>
-                            <FormInput name="Enavn" type="tekst" placeholder="Etternavn" />
-                    </Form>
-                    <Form>
-                        <FormLabel> Email: </FormLabel>
-                        </Form>
-                        <Form>
-                          <FormInput name="email" type="email" placeholder="E-posten din" />
-                    </Form>
-                     <Form>
-                         <FormLabel> Beskjed:</FormLabel>
-                    </Form>
-                     <Textarea> 
-                         Skriv din melding her 
-                    </Textarea>
                 
-                    <Form>
-                    <Button type ="submit"fontBig>Send</Button>
-                    </Form>
 
             <FooterLinksContainer>
                 <FooterLinksWrapper>
