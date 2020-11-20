@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../../firebase";
-import { Boks } from "../KontaktSkjema/Kontaktskjema.elements";
+import { KontaktSeksjon, KontaktWrapper } from "../KontaktSkjema/Kontaktskjema.elements";
 
 const KontaktSkjema = () => {
   const [name, setName] = useState("");
@@ -34,9 +34,10 @@ const KontaktSkjema = () => {
   };
 
   return (
-    <Boks>
+    <KontaktSeksjon>
+      <KontaktWrapper>
     <form className="form" onSubmit={handleSubmit}>
-      <h1>KontaktSkjema</h1>
+      <h1>Kontaktskjema</h1>
 
       <label>Navn</label>
       <input
@@ -66,7 +67,8 @@ const KontaktSkjema = () => {
         Send
       </button>
     </form>
-    </Boks>
+    </KontaktWrapper>
+    </KontaktSeksjon>
     
   );
 };

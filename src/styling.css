@@ -82,6 +82,8 @@ Variables
   }
   h1 {
     font-size: 3rem;
+    color: #fff;
+    padding-bottom: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -238,7 +240,7 @@ Variables
   flex-direction: column;
   justify-content: center;
   background-color: #101522;
-  padding-left: 700px;
+  
 
 }
 
@@ -258,7 +260,7 @@ textarea {
   font-size: 16px;
   color: rgb(0, 0, 32);
   outline: none;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .form > input:focus,
@@ -268,7 +270,7 @@ textarea:focus {
 
 .form > textarea {
   height: 250px;
-  max-width: 500px;
+  max-width: 600px;
   min-height: 100px;
 }
 

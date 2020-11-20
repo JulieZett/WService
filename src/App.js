@@ -16,11 +16,12 @@ function App() {
        <Route path="/services" exact component={Services} />
        <Route path="/Erfaring" exact component={Erfaring} />
        <Route path="/WestheimInfo" exact component={WestheimInfo} />
+       <Route path="/KontaktSkjema" exact component={KontaktSkjema} />
 
 
 
 
-       <Route path="/Footer" exact component={SignUp} />
+       <Route path="/KontakSkjema" exact component={SignUp} />
      </Switch>
      <Footer />
     </Router>

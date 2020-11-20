@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from '../../globalStyles';
 import { FaTree  } from 'react-icons/fa';
 import { FaRegSnowflake } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
 import {
   TjenesteSection,
   TjenesteWrapper,
@@ -13,19 +12,18 @@ import {
   TjenesteCardIcon,
   TjenesteCardPlan,
   TjenesteCardCost,
-  TjenesteCardLength,
   TjenesteCardFeatures,
   TjenesteCardFeature
 } from './Tjenester.elements';
 
 function Tjenester() {
   return (
-    <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
+    
       <TjenesteSection>
         <TjenesteWrapper>
           <TjenesteHeading>Tjenester</TjenesteHeading>
           <TjenesteContainer>
-          <TjenesteCard to='/sign-up'>
+          <TjenesteCard to='/KontaktSkjema'>
               <TjenesteCardInfo>
                 <TjenesteCardIcon>
                   <FaRegSnowflake />
@@ -40,7 +38,7 @@ function Tjenester() {
                 <Button primary>Les mer</Button>
               </TjenesteCardInfo>
             </TjenesteCard>
-            <TjenesteCard to='/sign-up'>
+            <TjenesteCard to='/KontaktSkjema'>
               <TjenesteCardInfo>
                 <TjenesteCardIcon>
                   <FaRegSnowflake />
@@ -77,7 +75,7 @@ function Tjenester() {
           </TjenesteContainer>
         </TjenesteWrapper>
       </TjenesteSection>
-    </IconContext.Provider>
+    
   );
 }
 export default Tjenester;

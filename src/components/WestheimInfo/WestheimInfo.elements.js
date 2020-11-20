@@ -68,15 +68,6 @@ export const PricingCard = styled.div`
   }
 `;
 
-export const Picture = styled.div`
-  background: transparent;
-  width: 680px;
-  height: 500px;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  align-items: left;
-`;
 
 export const InfoIcon = styled.div`
   color: #fff;
@@ -122,3 +113,26 @@ export const BildeS = styled.img`
 width: 200px;
 align-items: left;
 `
+export const KontaktSeksjon = styled.div`
+  padding: 100px 0 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #101522;
+
+`;
+
+export const KontaktWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin: 0 auto;
+  padding-left: 95px;
+  justify-content: left;
+  @media screen and (max-width: 960px) {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+`;

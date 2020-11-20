@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../../globalStyles'
 import { FaInstagram } from 'react-icons/fa';
 import Light from '../../images/monlight.svg';
 import { FooterContainer, 
